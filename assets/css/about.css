@@ -1,0 +1,17 @@
+/*
+  Version 20211007-1245
+*/
+
+.bg-all {
+  background-image: url(../img/lg/food-chile_lime_tilapia.jpg);
+  background-color: #999999;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-blend-mode: screen;
+}
+
+.img_about {
+  box-shadow: 2px 2px 2px #000000aa;
+  border-radius: 10px;
+}

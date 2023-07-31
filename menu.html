@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- 
+  /*
+  Version 20211007-1245
+*/
+ -->
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Shane Brans, James Cox, John Horonzy, Craig Sorenson" />
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <!-- import bootstrap full CSS -->
+  <link href="./bootstrap/libs_css/bootstrap.css" rel="stylesheet">
+  <!-- import font-awesome CSS -->
+  <link href="./bootstrap/libs_css/all.css">
+  <!-- import jQuery-ui CSS -->
+  <link href="./bootstrap/libs/jquery-ui-1.12.1/jquery-ui.css" rel="stylesheet">
+  <!-- Custom CSS below -->
+  <link href="./assets/css/common.css" rel="stylesheet">
+  <link href="./assets/css/menu.css" rel="stylesheet">
+  <title>Sinner's and Saint's - Menu</title>
+
+</head>
+
+<body id="bg-div" class="" onload="getMenu('all');">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">Home<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a id="menu_link_breakfast" class="nav-link" href="#" onclick="getMenu('breakfast')">Breakfast</a>
+        </li>
+        <li class="nav-item">
+          <a id="menu_link_lunch" class="nav-link" href="#" onclick="getMenu('lunch')">Lunch</a>
+        </li>
+        <li class="nav-item">
+          <a id="menu_link_dinner" class="nav-link" href="#" onclick="getMenu('dinner')">Dinner</a>
+        </li>
+        <li class="nav-item">
+          <a id="menu_link_all" class="nav-link active" href="#" onclick="getMenu('all')">All Meals</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./reviews.html">Reviews</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./music.html">Live Music</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./about.html">About</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">Contact:
+          </a>
+          <div class="dropdown-menu p-1 bg-dark text-light" aria-labelledby="navbarDropdown">
+            <a href="http.//www.google/maps.com/" target="_new">401 Stark Avenue<br>
+              Portland, Oregon 00036<br></a>
+            <a href="">206-555-5555</a>
+            <div class="dropdown-divider"></div>
+            <p>Follow Us:</p>
+            <a href="http://www.google.com" target="_new"><i class="fab fa-facebook" href="http.//facebook.com"></i></a>
+            <a href="http://www.google.com" target="_new"><i class="fab fa-twitter"
+                href="http.//www.twitter.com"></i></a>
+            <a href="http://www.google.com" target="_new"><i class="fab fa-instagram"
+                href="http.//www.instagram.com"></i></a>
+            <a href="http://www.google.com" target="_new"><i class="fab fa-pinterest"
+                href="http.//www.pinterest.com"></i></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="bg-dark text-light m-0 p-2 d-flex p-2 bd-highlight justify-content-start mt-5">
+    <a href="index.html">
+      <img class="nav_logo" src="./assets/img/logos/ss.svg" alt="Sinner's and Saint's Logo">
+    </a>
+    <div class="pl-4 pr-1 mr-1 align-items-center row">
+      <div class="col">
+        <div class="row text-center">
+          <h1 class="">Sinner's &amp; Saint's</h1>
+        </div>
+        <div class="row justify-content-center">
+          <h4 class="">Bar &amp; Grill</h4>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div id="menu_data" class="container-fluid row m-1 mb-5">
+  </div>
+
+  <footer class="container-fluid fixed-bottom bg-dark">
+    <div class="text-center pt-2">
+      <p class="">&copy; 2021 Sinner's &amp; Saint's, LLC</p>
+    </div>
+  </footer>
+
+  <div id="bootstrapLibs">
+    <!-- import jquery & jquery-ui -->
+    <script type="text/javascript" src="./bootstrap/libs/jquery.js"></script>
+    <script src="./bootstrap/libs/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <!-- import bootstrap scripts -->
+    <script src="./bootstrap/libs/bootstrap.bundle.js"></script>
+    <!-- import D3.js -->
+    <script type="text/javascript" src="./bootstrap/libs/d3.js"></script>
+    <script type="text/javascript" src="./bootstrap/libs/all.js"></script>
+    <!-- scripts below -->
+  </div>
+  <!-- the div below, #myLibs, must be present at the end of the body: please do not edit.-->
+  <div id="myLibs">
+    <script type="text/javascript" src="./assets/js/menu.js"></script>
+    <script type="text/javascript" src="./assets/js/menu_dishes.js"></script>
+    <script type="text/javascript" src="./assets/js/menu_bs.js"></script>
+  </div>
+  <!-- the div above, #myLibs, must be present at the end of the body: please do not edit.-->
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+/*
+  Version 20211007-1245
+*/
+
+.bg-home {
+  background-image: url(../img/med/03-filet_mignon.jfif);
+  background-size: cover;
+  background-color: #777777;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-position-x: center;
+  background-position-y: center;
+}
+
+img.daily_special {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px #00000088;
+}

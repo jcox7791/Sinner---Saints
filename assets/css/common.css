@@ -1,0 +1,107 @@
+/*
+  Version 20211007-1245
+*/
+
+.nav_logo {
+  height: 125px;
+}
+
+header h1, header h4, footer {
+  text-shadow: 2px 2px 2px #000000dd;
+  text-shadow: 1px 1px 0px hsl(48, 100%, 50%);
+  color: hsl(0, 57%, 50%);
+  /* color: #d40000; */
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+footer {
+  text-shadow: 1px 1px 2px #000000dd;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+h2 {
+  font-size: 3.0em;
+}
+
+h3 {
+  font-size: 2.5em;
+}
+
+h4 {
+  font-size: 2em;
+}
+
+h5 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+body {
+  background-color: #444444;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1000;
+}
+
+.text-ssBrand {
+  color: hsl(0, 57%, 50%);
+  text-shadow: 1px 1px 2px #000000dd;
+  text-shadow: 1px 1px 0px hsla(48, 100%, 50%, 0.5);
+}
+
+.bg-dark_trans {
+  background-color: #00000055;
+  border-radius: 10px;
+}
+
+.nice_par p {
+  text-indent: 1em;
+  font-weight: 500;
+}
+
+.nice_par p::first-letter {
+  font-size: larger;
+}
+
+a {
+  color: gold;
+}
+
+a:hover {
+  color: goldenrod;
+}
+
+.media_header {
+  font-size: x-large;
+}
+
+@media screen and (max-width: 500px) {
+  #media_icons {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .nav_logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

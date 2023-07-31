@@ -1,0 +1,67 @@
+/*
+  Version 20211007-1245
+*/
+
+.bg-breakfast {
+  background-image: url(../img/backgrounds/breakfast.jfif);
+}
+
+.bg-lunch {
+  background-image: url(../img/backgrounds/lunch.jpg);
+}
+
+.bg-dinner {
+  background-image: url(../img/backgrounds/dinner.jfif);
+}
+
+.bg-all {
+  background-image: url(../img/backgrounds/all.jfif);
+}
+
+.bg-breakfast, .bg-dinner, .bg-lunch, .bg-all {
+  background-color: #888888;
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-attachment: fixed;
+  background-blend-mode: screen;
+}
+
+/*
+************************************
+*/
+
+.menu_card img {
+  min-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px hsl(0, 57%, 50%)
+}
+
+.menu_card {
+  max-width: 350px;
+  min-width: 300px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #00000088;
+}
+
+.menu_card p, form {
+  margin-bottom: 4px;
+  /* font-size: 0.8em; */
+}
+
+/* .menu_card_hover:hover {
+  opacity: 0.7;
+} */
+
+.menu_description {
+  font-size: 1em!important;
+}
+
+#menu_data {
+  margin-bottom: 150px;
+}
+
+.menu_rating {
+  /* color: hsl(0, 57%, 50%);
+  text-shadow: 0px 1px 0px whitesmoke; */
+}
